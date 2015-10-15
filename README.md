@@ -3,7 +3,10 @@
 - Alright so… sweet. I got the app on GitHub finally… the address for the GitHub Repository is: https://github.com/tylerfurby/Revolt.git
 
 - Now, here are some thing you will need to download to get the full revolt.xcodeproj to function 100% properly…
-- smoke.mov,  basictitlefont.ttf, revoltsymbol.png
+  - smoke.mov
+  - basictitlefont.ttf
+  - revoltsymbol.png
+  
 - I will send them over email or Facebook Messenger or something…
 - After you get these 3 files, you will need to simply just drag them to the _Revolt Folder_ in the Project Navigator.
 
