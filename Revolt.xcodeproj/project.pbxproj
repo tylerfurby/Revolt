@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		AA142FF51BCF71B000A19144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FF41BCF71B000A19144 /* main.m */; };
 		AA142FF81BCF71B000A19144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FF71BCF71B000A19144 /* AppDelegate.m */; };
-		AA142FFB1BCF71B000A19144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FFA1BCF71B000A19144 /* ViewController.m */; };
-		AA142FFE1BCF71B000A19144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA142FFC1BCF71B000A19144 /* Main.storyboard */; };
 		AA1430001BCF71B000A19144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA142FFF1BCF71B000A19144 /* Assets.xcassets */; };
-		AA1430031BCF71B000A19144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */; };
 		AA14300E1BCF71B000A19144 /* RevoltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA14300D1BCF71B000A19144 /* RevoltTests.m */; };
 		AA1430191BCF71B000A19144 /* RevoltUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1430181BCF71B000A19144 /* RevoltUITests.m */; };
+		AA1430291BCF74FD00A19144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1430271BCF74FD00A19144 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA14302A1BCF74FD00A19144 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1430281BCF74FD00A19144 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		AA14302C1BCF75C800A19144 /* revoltsymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = AA14302B1BCF75C800A19144 /* revoltsymbol.png */; settings = {ASSET_TAGS = (); }; };
+		AA14302F1BCF783C00A19144 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA14302E1BCF783C00A19144 /* AVFoundation.framework */; };
+		AA1430311BCF784B00A19144 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1430301BCF784B00A19144 /* MediaPlayer.framework */; };
+		AA1430341BCF791800A19144 /* smoke.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA1430331BCF791800A19144 /* smoke.mov */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +42,7 @@
 		AA142FF41BCF71B000A19144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA142FF61BCF71B000A19144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA142FF71BCF71B000A19144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA142FF91BCF71B000A19144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA142FFA1BCF71B000A19144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AA142FFD1BCF71B000A19144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA142FFF1BCF71B000A19144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA1430021BCF71B000A19144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1430041BCF71B000A19144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1430091BCF71B000A19144 /* RevoltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA14300D1BCF71B000A19144 /* RevoltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevoltTests.m; sourceTree = "<group>"; };
@@ -51,6 +50,14 @@
 		AA1430141BCF71B000A19144 /* RevoltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1430181BCF71B000A19144 /* RevoltUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevoltUITests.m; sourceTree = "<group>"; };
 		AA14301A1BCF71B000A19144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1430261BCF74FD00A19144 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA1430271BCF74FD00A19144 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA1430281BCF74FD00A19144 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		AA14302B1BCF75C800A19144 /* revoltsymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = revoltsymbol.png; path = ../../revoltsymbol.png; sourceTree = "<group>"; };
+		AA14302D1BCF762300A19144 /* basictitlefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = basictitlefont.ttf; path = ../../../Downloads/basictitlefont.ttf; sourceTree = "<group>"; };
+		AA14302E1BCF783C00A19144 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA1430301BCF784B00A19144 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AA1430331BCF791800A19144 /* smoke.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = smoke.mov; path = "../../Stuff Downloaded for Revolt App/smoke.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1430311BCF784B00A19144 /* MediaPlayer.framework in Frameworks */,
+				AA14302F1BCF783C00A19144 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		AA142FE71BCF71B000A19144 = {
 			isa = PBXGroup;
 			children = (
+				AA1430321BCF785900A19144 /* Frameworks */,
 				AA142FF21BCF71B000A19144 /* Revolt */,
 				AA14300C1BCF71B000A19144 /* RevoltTests */,
 				AA1430171BCF71B000A19144 /* RevoltUITests */,
@@ -103,12 +113,14 @@
 			children = (
 				AA142FF61BCF71B000A19144 /* AppDelegate.h */,
 				AA142FF71BCF71B000A19144 /* AppDelegate.m */,
-				AA142FF91BCF71B000A19144 /* ViewController.h */,
-				AA142FFA1BCF71B000A19144 /* ViewController.m */,
-				AA142FFC1BCF71B000A19144 /* Main.storyboard */,
+				AA1430261BCF74FD00A19144 /* ViewController.h */,
+				AA1430271BCF74FD00A19144 /* ViewController.m */,
+				AA1430281BCF74FD00A19144 /* ViewController.xib */,
 				AA142FFF1BCF71B000A19144 /* Assets.xcassets */,
-				AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */,
 				AA1430041BCF71B000A19144 /* Info.plist */,
+				AA14302B1BCF75C800A19144 /* revoltsymbol.png */,
+				AA14302D1BCF762300A19144 /* basictitlefont.ttf */,
+				AA1430331BCF791800A19144 /* smoke.mov */,
 				AA142FF31BCF71B000A19144 /* Supporting Files */,
 			);
 			path = Revolt;
@@ -138,6 +150,15 @@
 				AA14301A1BCF71B000A19144 /* Info.plist */,
 			);
 			path = RevoltUITests;
+			sourceTree = "<group>";
+		};
+		AA1430321BCF785900A19144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1430301BCF784B00A19144 /* MediaPlayer.framework */,
+				AA14302E1BCF783C00A19144 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA1430031BCF71B000A19144 /* LaunchScreen.storyboard in Resources */,
+				AA1430341BCF791800A19144 /* smoke.mov in Resources */,
+				AA14302A1BCF74FD00A19144 /* ViewController.xib in Resources */,
+				AA14302C1BCF75C800A19144 /* revoltsymbol.png in Resources */,
 				AA1430001BCF71B000A19144 /* Assets.xcassets in Resources */,
-				AA142FFE1BCF71B000A19144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA142FFB1BCF71B000A19144 /* ViewController.m in Sources */,
+				AA1430291BCF74FD00A19144 /* ViewController.m in Sources */,
 				AA142FF81BCF71B000A19144 /* AppDelegate.m in Sources */,
 				AA142FF51BCF71B000A19144 /* main.m in Sources */,
 			);
@@ -309,25 +331,6 @@
 			targetProxy = AA1430151BCF71B000A19144 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AA142FFC1BCF71B000A19144 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA142FFD1BCF71B000A19144 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA1430021BCF71B000A19144 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA14301B1BCF71B000A19144 /* Debug */ = {
@@ -414,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Revolt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.Revolt;
@@ -425,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Revolt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.Revolt;

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) AVPlayerLayer *playerLayer;
+
+@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
 
 @end
-
