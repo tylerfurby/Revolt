@@ -21,6 +21,7 @@
 		AA5C26A91BCF9020001EB60E /* bulb.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA5C26A81BCF9020001EB60E /* bulb.mov */; settings = {ASSET_TAGS = (); }; };
 		AA5C26AD1BCF9DF6001EB60E /* MainInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C26AB1BCF9DF6001EB60E /* MainInterface.m */; settings = {ASSET_TAGS = (); }; };
 		AA5C26AE1BCF9DF6001EB60E /* MainInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5C26AC1BCF9DF6001EB60E /* MainInterface.xib */; settings = {ASSET_TAGS = (); }; };
+		AA5C26AF1BCFA123001EB60E /* basictitlefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA14302D1BCF762300A19144 /* basictitlefont.ttf */; };
 		AACCEA041BCF8EB4003348B2 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCEA021BCF8EB4003348B2 /* SignUp.m */; settings = {ASSET_TAGS = (); }; };
 		AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACCEA031BCF8EB4003348B2 /* SignUp.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -286,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5C26AF1BCFA123001EB60E /* basictitlefont.ttf in Resources */,
 				AA1430341BCF791800A19144 /* smoke.mov in Resources */,
 				AA14302A1BCF74FD00A19144 /* ViewController.xib in Resources */,
 				AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */,
