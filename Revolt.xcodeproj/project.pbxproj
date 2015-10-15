@@ -18,6 +18,11 @@
 		AA14302F1BCF783C00A19144 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA14302E1BCF783C00A19144 /* AVFoundation.framework */; };
 		AA1430311BCF784B00A19144 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1430301BCF784B00A19144 /* MediaPlayer.framework */; };
 		AA1430341BCF791800A19144 /* smoke.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA1430331BCF791800A19144 /* smoke.mov */; settings = {ASSET_TAGS = (); }; };
+		AA5C26A91BCF9020001EB60E /* bulb.mov in Resources */ = {isa = PBXBuildFile; fileRef = AA5C26A81BCF9020001EB60E /* bulb.mov */; settings = {ASSET_TAGS = (); }; };
+		AA5C26AD1BCF9DF6001EB60E /* MainInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5C26AB1BCF9DF6001EB60E /* MainInterface.m */; settings = {ASSET_TAGS = (); }; };
+		AA5C26AE1BCF9DF6001EB60E /* MainInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5C26AC1BCF9DF6001EB60E /* MainInterface.xib */; settings = {ASSET_TAGS = (); }; };
+		AACCEA041BCF8EB4003348B2 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCEA021BCF8EB4003348B2 /* SignUp.m */; settings = {ASSET_TAGS = (); }; };
+		AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACCEA031BCF8EB4003348B2 /* SignUp.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,13 @@
 		AA14302E1BCF783C00A19144 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AA1430301BCF784B00A19144 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		AA1430331BCF791800A19144 /* smoke.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = smoke.mov; path = "../../Stuff Downloaded for Revolt App/smoke.mov"; sourceTree = "<group>"; };
+		AA5C26A81BCF9020001EB60E /* bulb.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = bulb.mov; path = ../../../Downloads/bulb.mov; sourceTree = "<group>"; };
+		AA5C26AA1BCF9DF6001EB60E /* MainInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterface.h; sourceTree = "<group>"; };
+		AA5C26AB1BCF9DF6001EB60E /* MainInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterface.m; sourceTree = "<group>"; };
+		AA5C26AC1BCF9DF6001EB60E /* MainInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainInterface.xib; sourceTree = "<group>"; };
+		AACCEA011BCF8EB4003348B2 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		AACCEA021BCF8EB4003348B2 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		AACCEA031BCF8EB4003348B2 /* SignUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +128,18 @@
 				AA1430261BCF74FD00A19144 /* ViewController.h */,
 				AA1430271BCF74FD00A19144 /* ViewController.m */,
 				AA1430281BCF74FD00A19144 /* ViewController.xib */,
+				AACCEA011BCF8EB4003348B2 /* SignUp.h */,
+				AACCEA021BCF8EB4003348B2 /* SignUp.m */,
+				AACCEA031BCF8EB4003348B2 /* SignUp.xib */,
+				AA5C26AA1BCF9DF6001EB60E /* MainInterface.h */,
+				AA5C26AB1BCF9DF6001EB60E /* MainInterface.m */,
+				AA5C26AC1BCF9DF6001EB60E /* MainInterface.xib */,
 				AA142FFF1BCF71B000A19144 /* Assets.xcassets */,
 				AA1430041BCF71B000A19144 /* Info.plist */,
 				AA14302B1BCF75C800A19144 /* revoltsymbol.png */,
 				AA14302D1BCF762300A19144 /* basictitlefont.ttf */,
 				AA1430331BCF791800A19144 /* smoke.mov */,
+				AA5C26A81BCF9020001EB60E /* bulb.mov */,
 				AA142FF31BCF71B000A19144 /* Supporting Files */,
 			);
 			path = Revolt;
@@ -269,6 +288,9 @@
 			files = (
 				AA1430341BCF791800A19144 /* smoke.mov in Resources */,
 				AA14302A1BCF74FD00A19144 /* ViewController.xib in Resources */,
+				AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */,
+				AA5C26A91BCF9020001EB60E /* bulb.mov in Resources */,
+				AA5C26AE1BCF9DF6001EB60E /* MainInterface.xib in Resources */,
 				AA14302C1BCF75C800A19144 /* revoltsymbol.png in Resources */,
 				AA1430001BCF71B000A19144 /* Assets.xcassets in Resources */,
 			);
@@ -296,6 +318,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1430291BCF74FD00A19144 /* ViewController.m in Sources */,
+				AA5C26AD1BCF9DF6001EB60E /* MainInterface.m in Sources */,
+				AACCEA041BCF8EB4003348B2 /* SignUp.m in Sources */,
 				AA142FF81BCF71B000A19144 /* AppDelegate.m in Sources */,
 				AA142FF51BCF71B000A19144 /* main.m in Sources */,
 			);
@@ -504,6 +528,7 @@
 				AA14301F1BCF71B000A19144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA1430201BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +537,7 @@
 				AA1430221BCF71B000A19144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA1430231BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +546,7 @@
 				AA1430251BCF71B000A19144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,25 +1,35 @@
 //
-//  ViewController.m
+//  SignUp.m
 //  Revolt
 //
-//  Created by Tyler Furreboe on 10/14/15.
+//  Created by Tyler Furreboe on 10/15/15.
 //  Copyright © 2015 Furby Studios. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "SignUp.h"
 
-@interface ViewController ()
+@interface SignUp ()
+
+@property (nonatomic, weak) IBOutlet UITextField *username;
+
+@property (nonatomic, weak) IBOutlet UITextField *password;
 
 @end
 
-@implementation ViewController
+@implementation SignUp
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _username.layer.sublayerTransform = CATransform3DMakeTranslation(7, 0, 0);
+    _password.layer.sublayerTransform = CATransform3DMakeTranslation(7, 0, 0);
+    [self.username setValue:[UIColor whiteColor]
+                    forKeyPath:@"_placeholderLabel.textColor"];
+    [self.password setValue:[UIColor whiteColor]
+                    forKeyPath:@"_placeholderLabel.textColor"];
+    
     // Load the video from the app bundle.
-    NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"smoke" withExtension:@"mov"];
+    NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"bulb" withExtension:@"mov"];
     
     // Create and configure the movie player.
     self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
@@ -42,9 +52,11 @@
 
 -(IBAction) changeViewController:(id)sender
 {
-    SignUp *viewController = [[SignUp alloc] init];
+    MainInterface *viewController = [[MainInterface alloc] init];
     [self presentViewController:viewController animated:YES completion:nil];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

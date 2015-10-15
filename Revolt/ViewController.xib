@@ -55,7 +55,7 @@
                     <rect key="frame" x="90" y="529" width="195" height="67"/>
                     <animations/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" name="basictitlefont" family="basic title font" pointSize="15"/>
+                    <fontDescription key="fontDescription" name="basictitlefont" family="basic title font" pointSize="25"/>
                     <state key="normal" title="Enter">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
@@ -64,6 +64,9 @@
                             <integer key="value" value="10"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="changeViewController:" destination="-1" eventType="touchUpInside" id="rT4-0K-zys"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>
