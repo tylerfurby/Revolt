@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA142FF51BCF71B000A19144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FF41BCF71B000A19144 /* main.m */; };
+		AA142FF81BCF71B000A19144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FF71BCF71B000A19144 /* AppDelegate.m */; };
+		AA142FFB1BCF71B000A19144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA142FFA1BCF71B000A19144 /* ViewController.m */; };
+		AA142FFE1BCF71B000A19144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA142FFC1BCF71B000A19144 /* Main.storyboard */; };
+		AA1430001BCF71B000A19144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA142FFF1BCF71B000A19144 /* Assets.xcassets */; };
+		AA1430031BCF71B000A19144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */; };
+		AA14300E1BCF71B000A19144 /* RevoltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA14300D1BCF71B000A19144 /* RevoltTests.m */; };
+		AA1430191BCF71B000A19144 /* RevoltUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1430181BCF71B000A19144 /* RevoltUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA14300A1BCF71B000A19144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA142FE81BCF71B000A19144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA142FEF1BCF71B000A19144;
+			remoteInfo = Revolt;
+		};
+		AA1430151BCF71B000A19144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA142FE81BCF71B000A19144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA142FEF1BCF71B000A19144;
+			remoteInfo = Revolt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA142FF01BCF71B000A19144 /* Revolt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA142FF41BCF71B000A19144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA142FF61BCF71B000A19144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA142FF71BCF71B000A19144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA142FF91BCF71B000A19144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA142FFA1BCF71B000A19144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA142FFD1BCF71B000A19144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA142FFF1BCF71B000A19144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1430021BCF71B000A19144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA1430041BCF71B000A19144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1430091BCF71B000A19144 /* RevoltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA14300D1BCF71B000A19144 /* RevoltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevoltTests.m; sourceTree = "<group>"; };
+		AA14300F1BCF71B000A19144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1430141BCF71B000A19144 /* RevoltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1430181BCF71B000A19144 /* RevoltUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevoltUITests.m; sourceTree = "<group>"; };
+		AA14301A1BCF71B000A19144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA142FED1BCF71B000A19144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430061BCF71B000A19144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430111BCF71B000A19144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA142FE71BCF71B000A19144 = {
+			isa = PBXGroup;
+			children = (
+				AA142FF21BCF71B000A19144 /* Revolt */,
+				AA14300C1BCF71B000A19144 /* RevoltTests */,
+				AA1430171BCF71B000A19144 /* RevoltUITests */,
+				AA142FF11BCF71B000A19144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA142FF11BCF71B000A19144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA142FF01BCF71B000A19144 /* Revolt.app */,
+				AA1430091BCF71B000A19144 /* RevoltTests.xctest */,
+				AA1430141BCF71B000A19144 /* RevoltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA142FF21BCF71B000A19144 /* Revolt */ = {
+			isa = PBXGroup;
+			children = (
+				AA142FF61BCF71B000A19144 /* AppDelegate.h */,
+				AA142FF71BCF71B000A19144 /* AppDelegate.m */,
+				AA142FF91BCF71B000A19144 /* ViewController.h */,
+				AA142FFA1BCF71B000A19144 /* ViewController.m */,
+				AA142FFC1BCF71B000A19144 /* Main.storyboard */,
+				AA142FFF1BCF71B000A19144 /* Assets.xcassets */,
+				AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */,
+				AA1430041BCF71B000A19144 /* Info.plist */,
+				AA142FF31BCF71B000A19144 /* Supporting Files */,
+			);
+			path = Revolt;
+			sourceTree = "<group>";
+		};
+		AA142FF31BCF71B000A19144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA142FF41BCF71B000A19144 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA14300C1BCF71B000A19144 /* RevoltTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA14300D1BCF71B000A19144 /* RevoltTests.m */,
+				AA14300F1BCF71B000A19144 /* Info.plist */,
+			);
+			path = RevoltTests;
+			sourceTree = "<group>";
+		};
+		AA1430171BCF71B000A19144 /* RevoltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1430181BCF71B000A19144 /* RevoltUITests.m */,
+				AA14301A1BCF71B000A19144 /* Info.plist */,
+			);
+			path = RevoltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA142FEF1BCF71B000A19144 /* Revolt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA14301D1BCF71B000A19144 /* Build configuration list for PBXNativeTarget "Revolt" */;
+			buildPhases = (
+				AA142FEC1BCF71B000A19144 /* Sources */,
+				AA142FED1BCF71B000A19144 /* Frameworks */,
+				AA142FEE1BCF71B000A19144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revolt;
+			productName = Revolt;
+			productReference = AA142FF01BCF71B000A19144 /* Revolt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1430081BCF71B000A19144 /* RevoltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1430201BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltTests" */;
+			buildPhases = (
+				AA1430051BCF71B000A19144 /* Sources */,
+				AA1430061BCF71B000A19144 /* Frameworks */,
+				AA1430071BCF71B000A19144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA14300B1BCF71B000A19144 /* PBXTargetDependency */,
+			);
+			name = RevoltTests;
+			productName = RevoltTests;
+			productReference = AA1430091BCF71B000A19144 /* RevoltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA1430131BCF71B000A19144 /* RevoltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1430231BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltUITests" */;
+			buildPhases = (
+				AA1430101BCF71B000A19144 /* Sources */,
+				AA1430111BCF71B000A19144 /* Frameworks */,
+				AA1430121BCF71B000A19144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1430161BCF71B000A19144 /* PBXTargetDependency */,
+			);
+			name = RevoltUITests;
+			productName = RevoltUITests;
+			productReference = AA1430141BCF71B000A19144 /* RevoltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA142FE81BCF71B000A19144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Furby Studios";
+				TargetAttributes = {
+					AA142FEF1BCF71B000A19144 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3ZBGCAU8W6;
+					};
+					AA1430081BCF71B000A19144 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3ZBGCAU8W6;
+						TestTargetID = AA142FEF1BCF71B000A19144;
+					};
+					AA1430131BCF71B000A19144 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3ZBGCAU8W6;
+						TestTargetID = AA142FEF1BCF71B000A19144;
+					};
+				};
+			};
+			buildConfigurationList = AA142FEB1BCF71B000A19144 /* Build configuration list for PBXProject "Revolt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA142FE71BCF71B000A19144;
+			productRefGroup = AA142FF11BCF71B000A19144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA142FEF1BCF71B000A19144 /* Revolt */,
+				AA1430081BCF71B000A19144 /* RevoltTests */,
+				AA1430131BCF71B000A19144 /* RevoltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA142FEE1BCF71B000A19144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1430031BCF71B000A19144 /* LaunchScreen.storyboard in Resources */,
+				AA1430001BCF71B000A19144 /* Assets.xcassets in Resources */,
+				AA142FFE1BCF71B000A19144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430071BCF71B000A19144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430121BCF71B000A19144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA142FEC1BCF71B000A19144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA142FFB1BCF71B000A19144 /* ViewController.m in Sources */,
+				AA142FF81BCF71B000A19144 /* AppDelegate.m in Sources */,
+				AA142FF51BCF71B000A19144 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430051BCF71B000A19144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA14300E1BCF71B000A19144 /* RevoltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1430101BCF71B000A19144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1430191BCF71B000A19144 /* RevoltUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA14300B1BCF71B000A19144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA142FEF1BCF71B000A19144 /* Revolt */;
+			targetProxy = AA14300A1BCF71B000A19144 /* PBXContainerItemProxy */;
+		};
+		AA1430161BCF71B000A19144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA142FEF1BCF71B000A19144 /* Revolt */;
+			targetProxy = AA1430151BCF71B000A19144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA142FFC1BCF71B000A19144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA142FFD1BCF71B000A19144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA1430011BCF71B000A19144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1430021BCF71B000A19144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA14301B1BCF71B000A19144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA14301C1BCF71B000A19144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA14301E1BCF71B000A19144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Revolt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.Revolt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA14301F1BCF71B000A19144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Revolt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.Revolt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA1430211BCF71B000A19144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RevoltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.RevoltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revolt.app/Revolt";
+			};
+			name = Debug;
+		};
+		AA1430221BCF71B000A19144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RevoltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.RevoltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revolt.app/Revolt";
+			};
+			name = Release;
+		};
+		AA1430241BCF71B000A19144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RevoltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.RevoltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Revolt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA1430251BCF71B000A19144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RevoltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furbystudios.com.RevoltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Revolt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA142FEB1BCF71B000A19144 /* Build configuration list for PBXProject "Revolt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA14301B1BCF71B000A19144 /* Debug */,
+				AA14301C1BCF71B000A19144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA14301D1BCF71B000A19144 /* Build configuration list for PBXNativeTarget "Revolt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA14301E1BCF71B000A19144 /* Debug */,
+				AA14301F1BCF71B000A19144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA1430201BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1430211BCF71B000A19144 /* Debug */,
+				AA1430221BCF71B000A19144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA1430231BCF71B000A19144 /* Build configuration list for PBXNativeTarget "RevoltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1430241BCF71B000A19144 /* Debug */,
+				AA1430251BCF71B000A19144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA142FE81BCF71B000A19144 /* Project object */;
+}
