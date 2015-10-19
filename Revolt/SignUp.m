@@ -24,9 +24,9 @@
     _username.layer.sublayerTransform = CATransform3DMakeTranslation(7, 0, 0);
     _password.layer.sublayerTransform = CATransform3DMakeTranslation(7, 0, 0);
     [self.username setValue:[UIColor whiteColor]
-                    forKeyPath:@"_placeholderLabel.textColor"];
+                 forKeyPath:@"_placeholderLabel.textColor"];
     [self.password setValue:[UIColor whiteColor]
-                    forKeyPath:@"_placeholderLabel.textColor"];
+                 forKeyPath:@"_placeholderLabel.textColor"];
     
     // Load the video from the app bundle.
     NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"bulb" withExtension:@"mov"];
@@ -64,13 +64,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
