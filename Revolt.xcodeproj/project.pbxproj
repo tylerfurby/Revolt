@@ -45,6 +45,7 @@
 		AA70E3B91BD23B0300D53E31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E3B81BD23B0300D53E31 /* UIKit.framework */; };
 		AA70E3C21BD240E200D53E31 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E3C11BD240E200D53E31 /* FacebookSDK.framework */; settings = {ASSET_TAGS = (); }; };
 		AA70E3D61BD24D0A00D53E31 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E3D51BD24D0A00D53E31 /* libsqlite3.0.tbd */; };
+		AA70E3E21BD4AE4300D53E31 /* revoltshort.png in Resources */ = {isa = PBXBuildFile; fileRef = AA70E3E11BD4AE4300D53E31 /* revoltshort.png */; settings = {ASSET_TAGS = (); }; };
 		AACCEA041BCF8EB4003348B2 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCEA021BCF8EB4003348B2 /* SignUp.m */; settings = {ASSET_TAGS = (); }; };
 		AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACCEA031BCF8EB4003348B2 /* SignUp.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -114,6 +115,7 @@
 		AA70E3B81BD23B0300D53E31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA70E3C11BD240E200D53E31 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		AA70E3D51BD24D0A00D53E31 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AA70E3E11BD4AE4300D53E31 /* revoltshort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revoltshort.png; sourceTree = "<group>"; };
 		AACCEA011BCF8EB4003348B2 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
 		AACCEA021BCF8EB4003348B2 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
 		AACCEA031BCF8EB4003348B2 /* SignUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp.xib; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 		AA70E3DC1BD4A1C300D53E31 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AA70E3E11BD4AE4300D53E31 /* revoltshort.png */,
 				AA14302B1BCF75C800A19144 /* revoltsymbol.png */,
 				AA14302D1BCF762300A19144 /* basictitlefont.ttf */,
 				AA1430331BCF791800A19144 /* smoke.mov */,
@@ -391,6 +394,7 @@
 				AA1430341BCF791800A19144 /* smoke.mov in Resources */,
 				AA14302A1BCF74FD00A19144 /* ViewController.xib in Resources */,
 				AACCEA051BCF8EB4003348B2 /* SignUp.xib in Resources */,
+				AA70E3E21BD4AE4300D53E31 /* revoltshort.png in Resources */,
 				AA5C26A91BCF9020001EB60E /* bulb.mov in Resources */,
 				AA5C26AE1BCF9DF6001EB60E /* MainInterface.xib in Resources */,
 				AA14302C1BCF75C800A19144 /* revoltsymbol.png in Resources */,
